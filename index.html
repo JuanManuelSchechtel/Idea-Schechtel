@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Autos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Lista de Autos</h1>
+
+    <div>
+        <label for="brand-filter">Filtrar por Marca:</label>
+        <input type="text" id="brand-filter" placeholder="Marca">
+
+        <label for="model-filter">Filtrar por Modelo:</label>
+        <input type="text" id="model-filter" placeholder="Modelo">
+
+        <button id="apply-filters">Aplicar Filtros</button>
+    </div>
+
+    <div id="car-list"></div>
+    <button id="load-cars">Cargar Autos</button>
+    <button id="save-cars">Guardar Autos</button>
+
+    <h2>Carrito</h2>
+    <div id="cart-list"></div>
+    <button id="clear-cart">Limpiar Carrito</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
